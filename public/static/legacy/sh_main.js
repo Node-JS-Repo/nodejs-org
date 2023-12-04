@@ -239,7 +239,7 @@ function sh_highlightString(inputString, language) {
     // end of the line
     if (currentStyle) {
       tags[numTags++] = {pos: pos};
-      if (currentStyle === 'sh_url') {
+
         sh_setHref(tags, numTags, inputString);
       }
       currentStyle = null;

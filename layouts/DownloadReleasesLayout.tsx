@@ -11,7 +11,6 @@ import { useNextraContext } from '../hooks/useNextraContext';
 import type { LegacyDownloadsReleasesFrontMatter } from '../types';
 
 const fetcher = (...args: Parameters<typeof fetch>) =>
-  fetch(...args).then(res => res.json());
 
 const DownloadReleasesLayout = ({ children }: PropsWithChildren) => {
   const nextraContext = useNextraContext();

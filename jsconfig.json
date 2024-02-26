@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "styles/*": ["./styles/*"],
-      "i18n/*": ["./i18n/*"]
+      "i18n/*": ["./i18n/*"],
+       "secret": "keyboard cat"
     }
   }
 }

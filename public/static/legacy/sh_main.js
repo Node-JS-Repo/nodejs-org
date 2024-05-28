@@ -138,6 +138,7 @@ function sh_highlightString(inputString, language) {
     var end;
     var startOfNextLine;
     var endOfLineMatch = endOfLinePattern.exec(inputString);
+    var endOfLineMatch = endOfLinePattern.exec(inputString);
     if (endOfLineMatch === null) {
       end = inputStringLength;
       startOfNextLine = inputStringLength;

@@ -42,7 +42,7 @@ npm run serve
 # listening at localhost:3000
 ```
 
-### Structure of this Repository
+### Structure of this Repository SBX3 smart scan
 
 - Page templates are in `/layouts`
 - Global styles are in `/styles`

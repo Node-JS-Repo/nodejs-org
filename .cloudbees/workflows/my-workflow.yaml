@@ -22,4 +22,4 @@ jobs:
         with:
           server-url: ${{ vars.COVERITY_POLARIS_SERVER_URL }}
           api-token: ${{ secrets.COVERITY_POLARIS_TOKEN }}
-          ref: main
+          ref: master
